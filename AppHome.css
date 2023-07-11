@@ -1,0 +1,110 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(94, 25, 20, 0.597);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    border-bottom: 5px solid rgb(255, 145, 139) ;
+}
+.backm
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("Logo.png");
+    position:absolute;
+    background-size: cover;
+    margin-top: -8px;
+    margin-left: -8px;
+
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+    margin-left: 1150px;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+/* #navbar li a:hover,
+#navbar li a.active
+{
+    color: rgb(0, 255, 166);
+}
+#navbar li a:hover::after,
+#navbar li a:active::after
+{
+    content: "";
+    width: 60%;
+    height: 3px;
+    position: absolute;
+    background: rgb(0, 255, 170);
+    bottom: -3px;
+    left: 20px;
+} */
+#mobile i{
+    color: white;
+    align-items: center;
+}
+#mobile
+{
+    display: none;
+}
+@media screen  and (max-width:1000px){
+    #navbar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: fixed;
+    top: 65px;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background: rgb(139, 139, 146);
+    box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+    padding: 0px 0 0 10x;
+    transition: 0.6s ease-in-out;
+}
+#navbar.active
+{
+    right: 0px;
+}
+#navbar li
+{
+    margin-bottom :25px; ;
+}
+#mobile
+{
+    display: block;
+}
+#mobile i{
+    font-size: 24px;
+    cursor: pointer;
+}
+}
+.button3{
+    width: 100px;
+    height: 30px;
+    font-size: 40px;
+    background-color: rgba(255, 145, 139, 0);
+    border: none;
+    margin-left: 30px;
+    text-align: center;
+    color: rgb(255, 145, 139);
+}
+.button3:hover{
+    color:rgb(51, 255, 184);
+}
