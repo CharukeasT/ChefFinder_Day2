@@ -1,0 +1,19 @@
+.feedform{
+    height: 970px;
+    width: 500px;
+    margin-left: 650px;
+    margin-top: 10px;
+    border: 5px solid  rgb(255, 145, 139) ;
+    backdrop-filter: blur(10px);
+    border-radius: 15%;
+}
+.tt1{
+    width: 380px;
+    height: 100px;
+    background-color: #ffffff46;
+    font-size: 25px;
+    border-color: rgb(42, 149, 165);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}

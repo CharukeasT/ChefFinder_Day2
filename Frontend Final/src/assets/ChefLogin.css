@@ -1,0 +1,70 @@
+.back1{
+    background-image: url("./Back2.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+}
+.form1b{
+    width: 500px;
+    height: 650px;
+    margin-top: 200px;
+    margin-left: 150px;
+    border-radius: 50px;
+    backdrop-filter: blur(20px);
+}
+.h11b{
+    background: linear-gradient(to left,rgb(255, 0, 0),rgb(255, 221, 0)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+     text-align: center;
+     padding-top: 20px;
+     font-style: italic;
+     font-size: 70px;
+     text-decoration: underline;
+ }
+.h12b{
+    color: rgb(255, 247, 0);
+}
+.p1b{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.input1b{
+    margin-top: -100px;
+    width: 380px;
+    height: 50px;
+    background-color: #ffffffca;
+    font-size: 25px;
+    border-color: rgb(42, 149, 165);
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.login1b{
+    margin-left: 50px;
+}
+.button1b{
+    width: 35%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(30, 31, 31);
+    margin-left: 125px;
+    margin-top: 50px;
+    border: none;
+}
+.button2b{
+    width: 35%;
+    color: rgb(255, 247, 0);
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgba(204, 238, 153, 0);
+    padding-left: 40px;
+    border: none;
+}
+.button1b:hover{
+    cursor: pointer;
+}
+.button2b:hover{
+    cursor: pointer;
+}
